@@ -1,0 +1,27 @@
+h3
+{
+  font-family: Comic Sans MS; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline;
+}
+
+table{
+  font-family: Times New Roman; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: normal;
+  text-align: inline; 
+  letter-spacing:1px;
+  background-color: grey; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+
+table.inner{
+  border: 0px
+}

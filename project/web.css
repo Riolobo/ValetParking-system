@@ -1,0 +1,123 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+header
+{
+background-image: url(cover.jpg);
+height: 100%;
+background-size: cover;
+background-position: center;
+
+
+}
+
+.nav-bar
+{
+background: rgb(0, 0, 0, 0.5);
+height: 80px;
+}
+
+.logo
+{
+margin: 10px 50px;
+height: 60px;
+}
+
+.menu
+{
+float:right;
+list-style: none;
+margin: 15px;
+}
+
+.menu li
+{
+display: inline-block;
+list-style: none;
+}
+
+.menu li a
+{
+text-decoration :none;
+position: relative;
+color: fff;
+padding: 14px 30px;
+font-family: sans-serif;
+border: 1px solid pink;
+display: block;
+overflow: hidden;
+transition: .5s all;
+}
+
+.menu li a:before
+{
+content: '';
+width: 60px;
+position: absolute;
+border-bottom: 8px solid #FBFF00 ;
+bottom: 0;
+right: 350px;
+transition: .5s all;
+}
+
+.menu li a:hover:before
+{
+	right: 0;
+}
+
+
+.welcome
+{
+position: relative;
+text-align: center;
+font-family: sans-serif;
+color: #ffff;
+top: 160px;
+}
+ 
+.welcome h1
+{
+font-size: 42px;
+margin: 25px;
+font-family: arial-black;
+color: #063AFA ;
+}
+
+.btn
+{
+font-size: 18px;
+letter-spacing:2px;
+margin: 5px;
+padding: 7px 10px;
+text-decoration: none;
+border: 1px solid black;
+}
+
+.btn1
+{
+color: #ffff;
+}
+
+.btn2
+{
+color: #000;
+background: #ffff;
+}
+
+
+.btn1:hover
+{
+background: #57FA06 ;
+color: #000;
+transition: .5s;
+}
+
+.btn2:hover
+{
+background: #FF00DC ;
+color: #ffff;
+transition: .5s;
+}

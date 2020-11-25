@@ -1,0 +1,45 @@
+h3{
+  font-family: Stencil; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:#FBFE11 ;
+  text-align: center; 
+  text-decoration: underline;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table{
+  font-family: times new roman; 
+  color:#FF578C ; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+  position: center; 
+  border: 1px solid lightblue
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("entering.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

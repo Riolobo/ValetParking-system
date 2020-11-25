@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Customer form</title>
+<link href="entering.css" rel="stylesheet" type="text/css">
+</head>
+ 
+<body>
+<h3 align="center"> ENTERING CUSTOMER DETAILS</h3>
+
+ <form method ="post" action="parkacar.php">
+<table align="center" cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="First_Name" maxlength="30"/>
+
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="Last_Name" maxlength="30"/>
+
+</td>
+</tr>
+
+<!----- Car Number ---------------------------------------------------------->
+<tr>
+<td>CAR NUMBER</td>
+<td><input type="text" name="car_num" maxlength="30"/>
+
+</td>
+</tr>
+
+<!----- Car Type-------------------------------------------------------->
+<tr>
+<td>CAR TYPE </td>
+ 
+<td>
+<select name="Car_Type" id="Car_Type">
+<option value="SUV">SUV</option>
+<option value="Sedan">Sedan</option>
+<option value="Hatchback">Hatchback</option>
+<option value="Crossover">Crossover</option>
+<option value="Coupe">Coupe</option>
+<option value="Convertible">Convertible</option>
+</select>
+</td>
+</tr>
+ 
+ 
+
+
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>valet id</td>
+<td><input type="text" name="VID" maxlength="30"/>
+
+</td>
+</tr>
+
+
+ 
+
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
